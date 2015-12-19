@@ -1,2 +1,3 @@
 #MEAN PROTOTYPE
+simple service
 
