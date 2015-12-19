@@ -75,12 +75,15 @@ app.post('/login', function (req, res) {
     else
     {
       var items =
-      [{ title: 'Reggae', id: 1 },
-      { title: 'Chill', id: 2 },
-      { title: 'Dubstep', id: 3 },
-      { title: 'Indie', id: 4 },
-      { title: 'Rap', id: 5 },
-      { title: 'Cowbell', id: 6 }];
+      [{ title: 'Bosa Nova', id: 1 },
+      { title: 'Rock and Roll', id: 2 },
+      { title: 'Chicken Skin', id: 3 },
+      { title: 'Reggae', id: 4 },
+      { title: 'Chill', id: 5 },
+      { title: 'Dubstep', id: 6 },
+      { title: 'Indie', id: 7 },
+      { title: 'Rap', id: 8 },
+      { title: 'Cowbell', id: 9 }];
       res.send(JSON.stringify(items));
     }
   });
